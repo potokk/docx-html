@@ -1,4 +1,4 @@
-$:.unshift File.expand_path("../lib", __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
 require 'docx/html'
 
 Gem::Specification.new do |s|
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.author      = 'Marcus Ortiz'
   s.email       = 'mportiz08@gmail.com'
   s.homepage    = 'https://github.com/mportiz08/docx-html'
-  s.files       = Dir["README.md", "LICENSE.md", "lib/**/*.rb"]
+  s.files       = Dir["lib/**/*"] + ["README.md", "LICENSE.md"]]
   
   s.add_dependency 'docx'
   s.add_dependency 'html_writer', '~> 0.1.0'
