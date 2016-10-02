@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.author      = 'Marcus Ortiz'
   s.email       = 'mportiz08@gmail.com'
   s.homepage    = 'https://github.com/mportiz08/docx-html'
-  s.files       = Dir["lib/**/*"] + ["README.md", "LICENSE.md"]]
+  s.files       = Dir[["lib/**/*", "README.md", "LICENSE.md"]]
   
   s.add_dependency 'docx'
   s.add_dependency 'html_writer', '~> 0.1.0'
