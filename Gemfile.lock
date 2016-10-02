@@ -2,21 +2,28 @@ PATH
   remote: .
   specs:
     docx-html (0.1.0)
-      docx (~> 0.1.0)
+      docx
       html_writer (~> 0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    docx (0.1.0)
+    docx (0.2.07)
       nokogiri (~> 1.5)
-      rubyzip (~> 0.9)
+      rubyzip (~> 1.1.6)
     html_writer (0.1.0)
-    nokogiri (1.5.2)
-    rubyzip (0.9.7)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    rubyzip (1.1.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   docx-html!
+
+BUNDLED WITH
+   1.13.1
